@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'LT Shortcake Medium';
+  src: url('/path-to/LT Shortcake Medium.woff2') format('woff2'),
+       url('/path-to/LT Shortcake Medium.woff') format('woff'),
+       url('/path-to/LT Shortcake Medium.ttf')  format('truetype');
+}
+
+body {
+  font-family: 'LT Shortcake Medium', sans-serif;
+}

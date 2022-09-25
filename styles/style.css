@@ -3,14 +3,25 @@
     Date    : 24/09/2022
     Version : V.1.0
 */
-
+@font-face {
+  font-family: 'Shortcake';
+  src: url('/ShortCake/LT\ Shortcake\ Medium.woff2') format('woff2'),
+       url('/ShortCake/LT\ Shortcake\ Medium.woff') format('woff'),
+       url('/ShortCake/LT\ Shortcake\ Medium.ttf')  format('truetype');
+}
 /*---------------------------------------------------------------------*/
 /* GLOBAL */
 /*---------------------------------------------------------------------*/
+body {
+  font-family: 'Shortcake', sans-serif;
+  line-height: 1.5;
 
+}
 /* typo */
 /*--------------------*/
-
+h2, h3, h4, h5, h6{
+  color: orange;
+}
 /* others */
 /*--------------------*/
 
@@ -19,6 +30,9 @@
 a:hover{
   font-weight: bold;
   color: rgb(217, 217, 217);
+}
+.navbar a:hover{
+  color: orange;
 }
 
 /* forms */
